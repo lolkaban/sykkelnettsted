@@ -1,0 +1,128 @@
+body{
+    background-image: url("../bilder/bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.innhold{
+    margin-left: -259px;
+    position: relative;
+    left: 50%;
+    margin-right: auto;
+    margin-top: 74px;
+    width: 695px;
+    min-height: 1000px;
+    background-color: white;
+}
+.topmenu{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.95;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+.menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    width: 20%;
+}
+a.menuinnhold{
+ min-height: 50px;  
+ padding-top: 25px;
+}
+.menuplass{
+    position: fixed;
+    width: auto;
+    left: 50%;
+    top: -5px;
+    margin-left: -450px;
+    z-index: 9999;
+}
+.meritter{
+    background-color: #f2ca24;
+    position: fixed;
+    height: 500px;
+    width: 190px;
+    left: 50%;
+    top:73px;
+    color: white;
+    padding-left: 5px;
+    margin-left: -448px;
+}
+.merittertabbel{
+    overflow: hidden;
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+td{
+    padding: 5px;
+}
+.meritterlogo{
+    padding-left: 5px;
+}
+.omebh{
+    
+    padding-left: 5px;
+    font-size: 14pkt;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 695px;
+    font-size: 50px;
+    
+}
+.fotoebh{
+    width: 49%;
+    float: left;
+}
+.tekstebh{
+    float:left;
+    width: 50%;
+    padding-left: 5px;
+}
+.gulboksnede{
+    width: 695px;
+    margin-left: -259px;
+    position: relative;
+    left: 50%;
+    background-color: #f2ca24;
+    height: 60px;
+    margin-top: 3px;
+    text-align: center;
+    padding-top: 20px;
+}
+/* a.gulboksnede{
+    min-height: 60px;
+    padding-top: 25px;
+}   hvorfor funke ikkje den */
+
+a:link    {color:#F0FFF0; background-color:transparent; text-decoration:none; display: block;}
+a:visited { color: white; background-color:transparent; text-decoration:none}
+a:hover   {color:yellow; text-decoration:none}
+a:active  {color:green; background-color:transparent; text-decoration:none
+}
